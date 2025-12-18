@@ -1,0 +1,270 @@
+<deportes>
+    <evento id="E001" anno="2025" asistentes="84237">
+        <organizador>Liga Nacional de Fútbol Profesional</organizador>
+        <titulo>Real Madrid vs Villarreal CF</titulo>
+        <lugar>Santiago Bernabeu</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>Madrid</ciudad>
+        <fecha>2025-10-19</fecha>
+        <competicion>LaLiga</competicion>
+        <jornada>5</jornada>
+    </evento>
+    <evento id="E002" anno="2024" asistentes="71452">
+        <organizador>Liga Nacional de Fútbol Profesional</organizador>
+        <titulo>FC Barcelona vs Real Sociedad</titulo>
+        <lugar>Camp Nou</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>Barcelona</ciudad>
+        <fecha>2024-11-09</fecha>
+        <competicion>LaLiga</competicion>
+        <jornada>36</jornada>
+    </evento>
+    <evento id="E003" anno="2022" asistentes="9315">
+        <organizador>Liga Nacional de Rugby</organizador>
+        <titulo>Liceo Francés - Complutense Lineros</titulo>
+        <lugar>Wanda Metropolitano</lugar>
+        <disciplina>Rugby</disciplina>
+        <ciudad>Madrid</ciudad>
+        <fecha>2022-01-16</fecha>
+        <competicion>División de Honor de rugby</competicion>
+        <jornada>8</jornada>
+    </evento>
+    <evento id="E004" anno="2025" asistentes="19244">
+        <organizador>Liga Nacional de Fútbol Profesional</organizador>
+        <titulo>Celta Vigo vs Sevilla FC</titulo>
+        <lugar>Balaídos</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>Vigo</ciudad>
+        <fecha>2025-03-01</fecha>
+        <competicion>LaLiga</competicion>
+        <jornada>36</jornada>
+    </evento>
+    <evento id="E005" anno="2021" asistentes="3084">
+        <organizador>Ayuntamiento local</organizador>
+        <titulo>Campeonato Provincial de Atletismo</titulo>
+        <lugar>Estadio Municipal de Atletismo de Balaidos</lugar>
+        <disciplina>Atletismo</disciplina>
+        <ciudad>Vigo</ciudad>
+        <fecha>2021-06-15</fecha>
+    </evento>
+    <evento id="E006" anno="2025" asistentes="19438">
+        <organizador>Federación Española de Tenis</organizador>
+        <titulo>Mutua Madrid Open</titulo>
+        <lugar>Caja Mágica</lugar>
+        <disciplina>Tenis</disciplina>
+        <ciudad>Madrid</ciudad>
+        <fecha>2025-12-04</fecha>
+        <categoria>Master 1000</categoria>
+    </evento>
+    <evento id="E007" anno="2021" asistentes="3436">
+        <organizador>Federación Española de Rugby</organizador>
+        <titulo>España vs Portugal</titulo>
+        <lugar>Estadio Huerta del Rey</lugar>
+        <disciplina>Rugby</disciplina>
+        <ciudad>Valladolid</ciudad>
+        <fecha>2021-05-24</fecha>
+    </evento>
+    <evento id="E008" anno="2023" asistentes="86516">
+        <organizador>Liga Nacional de Fútbol Profesional</organizador>
+        <titulo>Espanyol vs Valencia CF</titulo>
+        <lugar>Estadio Cornellà-El Prat</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>Barcelona</ciudad>
+        <fecha>2023-01-21</fecha>
+        <competicion>Copa del Rey</competicion>
+    </evento>
+    <evento id="E009" anno="2023" asistentes="4236">
+        <organizador>Ayuntamiento local</organizador>
+        <titulo>Campeonato Provincial de Atletismo</titulo>
+        <lugar>Pabellón Palacio Euskalduna</lugar>
+        <disciplina>Atletismo</disciplina>
+        <ciudad>Bilbao</ciudad>
+        <fecha>2023-06-07</fecha>
+    </evento>
+    <evento id="E010" anno="2025" asistentes="12972">
+        <organizador>Liga Nacional de Fútbol Profesional</organizador>
+        <titulo>Logroñes FC vs Mallorca</titulo>
+        <lugar>Estadio Las Gaunas</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>Logroño</ciudad>
+        <fecha>2025-03-15</fecha>
+        <competicion>Copa del Rey</competicion>
+    </evento>
+    <evento id="E011" anno="2023" asistentes="5946">
+        <organizador>Federación Española de Ciclismo</organizador>
+        <titulo>Vuelta - Etapa 2 (Valencia)</titulo>
+        <lugar>Recorrido urbano / Carretera</lugar>
+        <disciplina>Ciclismo</disciplina>
+        <ciudad>Valencia</ciudad>
+        <fecha>2023-12-15</fecha>
+    </evento>
+    <evento id="E012" anno="2022" asistentes="7266">
+        <organizador>Real Federación Española de Rugby</organizador>
+        <titulo>Copa de Rugby - Final</titulo>
+        <lugar>Estadio Nuevo Los Cármenes</lugar>
+        <disciplina>Rugby</disciplina>
+        <ciudad>Granada</ciudad>
+        <fecha>2022-04-28</fecha>
+    </evento>
+    <evento id="E013" anno="2025" asistentes="12008">
+        <organizador>Organizador local de carrera</organizador>
+        <titulo>Vuelta - Etapa 5 (Madrid)</titulo>
+        <lugar>Recorrido urbano / Carretera</lugar>
+        <disciplina>Ciclismo</disciplina>
+        <ciudad>Madrid</ciudad>
+        <fecha>2025-07-09</fecha>
+    </evento>
+    <evento id="E014" anno="2025" asistentes="17620">
+        <organizador>Mutua Malloca Open</organizador>
+        <titulo>Mallorca Championships</titulo>
+        <lugar>Palma Arena</lugar>
+        <disciplina>Tenis</disciplina>
+        <ciudad>Malloca</ciudad>
+        <fecha>2025-11-12</fecha>
+        <categoria>ATP 250</categoria>
+    </evento>
+    <evento id="E015" anno="2025" asistentes="8550">
+        <organizador>Liga ACB</organizador>
+        <titulo>Supercopa ACB</titulo>
+        <lugar>Palau Sant Jordi</lugar>
+        <disciplina>Baloncesto</disciplina>
+        <ciudad>Barcelona</ciudad>
+        <fecha>2025-02-28</fecha>
+    </evento>
+    <evento id="E016" anno="2025" asistentes="59090">
+        <organizador>Liga Nacional de Fútbol Profesional</organizador>
+        <titulo>Athelic vs Celta Vigo</titulo>
+        <lugar>San Mamés</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>Bilbao</ciudad>
+        <fecha>2025-06-02</fecha>
+        <competicion>LaLiga</competicion>
+        <jornada>17</jornada>
+    </evento>
+    <evento id="E017" anno="2022" asistentes="7208">
+        <organizador>Federación Española de Baloncesto</organizador>
+        <titulo>España vs Grecia</titulo>
+        <lugar>WiZink Center</lugar>
+        <disciplina>Baloncesto</disciplina>
+        <ciudad>Madrid</ciudad>
+        <fecha>2022-05-22</fecha>
+    </evento>
+    <evento id="E018" anno="2021" asistentes="11502">
+        <organizador>Organización Maratón Valencia</organizador>
+        <titulo>Valencia Marathon</titulo>
+        <lugar>Salida: Avenida Principal</lugar>
+        <disciplina>Maratón</disciplina>
+        <ciudad>Valencia</ciudad>
+        <fecha>2021-01-20</fecha>
+    </evento>
+    <evento id="E019" anno="2023" asistentes="6206">
+        <organizador>Ayuntamiento local</organizador>
+        <titulo>Campeonato Provincial de Atletismo</titulo>
+        <lugar>Estadio Nuevo Los Cármenes</lugar>
+        <disciplina>Atletismo</disciplina>
+        <ciudad>Granada</ciudad>
+        <fecha>2023-09-23</fecha>
+    </evento>
+    <evento id="E020" anno="2021" asistentes="811">
+        <organizador>Federación Española de Atletismo</organizador>
+        <titulo>Meeting Internacional de Atletismo</titulo>
+        <lugar>Estadio José Rico Pérez</lugar>
+        <disciplina>Atletismo</disciplina>
+        <ciudad>Alicante</ciudad>
+        <fecha>2021-03-29</fecha>
+    </evento>
+    <evento id="E021" anno="2022" asistentes="10230">
+        <organizador>Liga ACB</organizador>
+        <titulo>Valencia Basket - Joventud de Badalona</titulo>
+        <lugar>Roig Arena</lugar>
+        <disciplina>Baloncesto</disciplina>
+        <ciudad>Valencia</ciudad>
+        <fecha>2022-05-19</fecha>
+    </evento>
+    <evento id="E022" anno="2021" asistentes="7834">
+        <organizador>Barcelona Open Banc Sabadell</organizador>
+        <titulo>Torneo Conde de Godó</titulo>
+        <lugar>El Real Club de Tenis de Barcelona</lugar>
+        <disciplina>Tenis</disciplina>
+        <ciudad>Barcelona</ciudad>
+        <fecha>2021-04-21</fecha>
+        <categoria>ATP 500</categoria>
+    </evento>
+    <evento id="E023" anno="2021" asistentes="41536">
+        <organizador>Real Federación Española de Fútbol</organizador>
+        <titulo>España vs Italia</titulo>
+        <lugar>Anoeta</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>San Sebastián</ciudad>
+        <competicion>Amistoso</competicion>
+        <fecha>2021-02-07</fecha>
+    </evento>
+    <evento id="E024" anno="2023" asistentes="20048">
+        <organizador>Real Federación Española de Fútbol</organizador>
+        <titulo>España Sub 21 - Malta Sub 21</titulo>
+        <lugar>Estadio Nueva Condomina</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>Murcia</ciudad>
+        <fecha>2023-05-07</fecha>
+        <competicion>Amistoso</competicion>
+    </evento>
+    <evento id="E025" anno="2022" asistentes="12707">
+        <organizador>Liga ACB</organizador>
+        <titulo>Copa del Rey - Final</titulo>
+        <lugar>Martín Carpena)</lugar>
+        <disciplina>Baloncesto</disciplina>
+        <ciudad>Málaga</ciudad>
+        <fecha>2022-10-17</fecha>
+    </evento>
+    <evento id="E026" anno="2021" asistentes="43768">
+        <organizador>Comité Organizador Madrid Marathon</organizador>
+        <titulo>Madrid Marathon</titulo>
+        <lugar>Salida: Plaza Mayor</lugar>
+        <disciplina>Maratón</disciplina>
+        <ciudad>Madrid</ciudad>
+        <fecha>2021-11-26</fecha>
+    </evento>
+    <evento id="E027" anno="2021" asistentes="31828">
+        <organizador>Liga Nacional de Fútbol Profesional</organizador>
+        <titulo>Villareal vs Athletic Club</titulo>
+        <lugar>La Cerámica</lugar>
+        <disciplina>Fútbol</disciplina>
+        <ciudad>Villareal</ciudad>
+        <fecha>2021-04-03</fecha>
+        <competicion>LaLiga</competicion>
+        <jornada>32</jornada>
+        <competicion>Copa del Rey</competicion>
+    </evento>
+    <evento id="E028" anno="2023" asistentes="7955">
+        <organizador>Federación Española de Rugby</organizador>
+        <titulo>Copa de Rugby - Final</titulo>
+        <lugar>La Romareda</lugar>
+        <disciplina>Rugby</disciplina>
+        <ciudad>Zaragoza</ciudad>
+        <fecha>2023-01-20</fecha>
+    </evento>
+    <evento id="E029" anno="2022" asistentes="11717">
+        <organizador>Liga ACB</organizador>
+        <titulo>Copa del Rey - Final</titulo>
+        <lugar>Pabellón Palacio Euskalduna</lugar>
+        <disciplina>Baloncesto</disciplina>
+        <ciudad>Bilbao</ciudad>
+        <fecha>2022-09-01</fecha>
+    </evento>
+    <evento id="E030" anno="2022" asistentes="7383">
+        <organizador>Federación Española de Hockey</organizador>
+        <titulo>Copa de Hockey - Final</titulo>
+        <lugar>José Zorrilla</lugar>
+        <disciplina>Hockey</disciplina>
+        <ciudad>Valladolid</ciudad>
+        <fecha>2022-05-19</fecha>
+    </evento>
+    <evento id="E031" anno="2022" asistentes="5545">
+        <organizador>Organización Maratón Barcelona</organizador>
+        <titulo>Barcelona Marathon</titulo>
+        <lugar>Salida: Avenida Principal</lugar>
+        <disciplina>Maratón</disciplina>
+        <ciudad>Barcelona</ciudad>
+        <fecha>2022-03-22</fecha>
+    </evento>
+<evento id="E999" anno="2025" asistentes="50000"><organizador>Comité Olímpico</organizador><titulo>Final 100m Lisos</titulo><lugar>Estadio Olímpico</lugar><disciplina>Atletismo</disciplina><ciudad>Sevilla</ciudad><fecha>2025-08-20</fecha></evento></deportes>

@@ -1,0 +1,17 @@
+1.​ ¿Qué representan los datos de este JSON? Explica brevemente su finalidad y cómo están organizados. (2 puntos)
+Este Json representa una biblioteca con el nombre "Biblioteca Central", que está en Madrid, la cual tiene 3 libros diferentes
+
+2. ¿Cuántos vectores o arrays hay definidos en este código JSON? ¿Qué almacena cada posición del vector? (2 puntos)
+Vectores hay 10; libray, name, location, title, author, year, pages, rating, average y votes y array hay 4 que son el de libros y el de categorías.
+
+3. ¿Cuántos objetos contiene el archivo y qué información almacena cada uno?(2 puntos)
+Hay 3 objetos, que son los libros.
+
+4.​ ¿Cuántos atributos de tipo numérico hay en el archivo y a qué atributo y objeto corresponden? (1,5 puntos)
+Hay 4, year, pages, average y votes
+
+5. ¿Qué categorías tiene el segundo libro y de qué tipo es ese dato? (1 punto)
+Es de categoría "Realismo mágico" y "Novela" y son de tipo String.
+
+6.​ Añade al JSON anterior algunas claves y valores que se puedan tomar y que no estén contemplados en el mismo.
+Se hacen las modificaciones en el json adjunto

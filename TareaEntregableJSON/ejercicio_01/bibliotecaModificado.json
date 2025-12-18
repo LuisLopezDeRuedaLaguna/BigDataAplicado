@@ -1,0 +1,52 @@
+{
+    "library": {
+        "name": "Biblioteca Central",
+        "location": "Madrid",
+        "books": [
+            {
+                "title": "Cien años de soledad",
+                "author": "Gabriel García Márquez",
+                "year": 1967,
+                "ultimo_Usuario": "Luis Martínez",
+                "pages": 417,
+                "categories": [
+                    "Realismo mágico",
+                    "Novela"
+                ],
+                "rating": {
+                    "average": 4.8,
+                    "votes": 15234
+                }
+            },
+            {
+                "title": "La sombra del viento",
+                "author": "Carlos Ruiz Zafón",
+                "year": 2001,
+                "pages": 565,
+                "ultimo_Usuario": "Ana Gómez",
+                "categories": [
+                    "Misterio",
+                    "Novela histórica"
+                ],
+                "rating": {
+                    "average": 4.7,
+                    "votes": 28710
+                }
+            },
+            {
+                "title": "El nombre del viento",
+                "author": "Patrick Rothfuss",
+                "year": 2007,
+                "pages": 662,
+                "ultimo_Usuario": "Juan Pérez",
+                "categories": [
+                    "Fantasía"
+                ],
+                "rating": {
+                    "average": 4.9,
+                    "votes": 40211
+                }
+            }
+        ]
+    }
+}

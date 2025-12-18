@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    <nombreEmpresa>Holded SA</nombreEmpresa>
+    <calle>Joan de Borbó, 101</calle>
+    <poblacion>Barcelone (08001), Barcelona, España</poblacion>
+    <correoElectronico>aldo.solanas@holded.com</correoElectronico>
+    <numtelefono>932710167</numtelefono>
+    <tipoFactura>Simplificada</tipoFactura>
+    <fecha>09/25/2019</fecha>
+    <articulos>
+        <articulo>
+            <nombre>Gafas de sol</nombre>
+            <descripcion>Warfare</descripcion>
+            <precio>90.00</precio>
+            <unidades>1</unidades>
+            <subtotal>90.00</subtotal>
+            <iva>21</iva>
+            <total>108.90</total>
+            <tipoModena>€</tipoModena>
+        </articulo>
+        <articulo>
+            <nombre>VANS Bambas</nombre>
+            <descripcion>bamba de color negro old school</descripcion>
+            <precio>70.00</precio>
+            <unidades>1</unidades>
+            <subtotal>70.00</subtotal>
+            <iva>21</iva>
+            <total>84.70</total>
+            <tipoModena>€</tipoModena>
+        </articulo>
+        <articulo>
+            <nombre>beanie</nombre>
+            <descripcion>Talla M</descripcion>
+            <precio>25.00</precio>
+            <unidades>1</unidades>
+            <subtotal>25.00</subtotal>
+            <iva>21</iva>
+            <total>30.25</total>
+            <tipoModena>€</tipoModena>
+        </articulo>
+        <articulo>
+            <nombre>Tabla de surf</nombre>
+            <descripcion>Modelo 6.3</descripcion>
+            <precio>356.00</precio>
+            <unidades>1</unidades>
+            <subtotal>356.00</subtotal>
+            <iva>21</iva>
+            <total>430.76</total>
+            <tipoModena>€</tipoModena>
+        </articulo>
+        <articulo>
+            <nombre>Camiseta Nike</nombre>
+            <descripcion>Negra L</descripcion>
+            <precio>22.00</precio>
+            <unidades>1</unidades>
+            <subtotal>22.00</subtotal>
+            <iva>21</iva>
+            <total>26.62</total>
+            <tipoModena>€</tipoModena>
+        </articulo>
+        <articulo>
+            <nombre>Camiseta Nike</nombre>
+            <descripcion>Negra XL</descripcion>
+            <precio>22.00</precio>
+            <unidades>1</unidades>
+            <subtotal>22.00</subtotal>
+            <iva>21</iva>
+            <total>26.62</total>
+            <tipoModena>€</tipoModena>
+        </articulo>
+        <articulo>
+            <nombre>Guantes</nombre>
+            <descripcion>Piel reforzada / negro</descripcion>
+            <precio>12.00</precio>
+            <unidades>1</unidades>
+            <subtotal>12.00</subtotal>
+            <iva>21</iva>
+            <total>14.52</total>
+            <tipoModena>€</tipoModena>
+        </articulo>
+        <baseImporte>597.00</baseImporte>
+        <iva>125.37</iva>
+        <totla>722.37</totla>
+    </articulos>
+</factura>

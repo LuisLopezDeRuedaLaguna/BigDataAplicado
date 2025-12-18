@@ -1,0 +1,97 @@
+ #1 
+for $p in doc("filmoteca.xml")/filmoteca/catalogo/pelicula
+order by $p/titulo ascending
+return $p/titulo
+
+ #2 
+for $p in doc("filmoteca.xml")/filmoteca/catalogo/pelicula
+where $p/anio > 2000
+return 
+<pelicula id="{$p/@id}">
+  {$p/titulo}
+  <anno>{data($p/anio)}</anno>
+</pelicula>
+
+ #3 
+for $p in doc("filmoteca.xml")/filmoteca/catalogo/pelicula
+let $num := count($p/actores/actor)
+return 
+<pelicula id="{$p/@id}">
+  {$p/titulo}
+  <numActores>{$num}</numActores>
+</pelicula>
+
+ #4 
+for $p in doc("filmoteca.xml")/filmoteca/catalogo/pelicula
+let $pais := $p/pais
+group by $pais
+return 
+<pais nombre="{$pais}" numero="{count($p)}"/>
+
+ #5 
+for $p in doc("filmoteca.xml")/filmoteca/catalogo/pelicula
+where count($p/actores/actor) > 1
+return 
+<pelicula id="{$p/@id}">
+  {$p/titulo}
+  <actores>
+    {
+      for $a in $p/actores/actor
+      return $a
+    }
+  </actores>
+</pelicula>
+
+ #6 
+for $p in doc("filmoteca.xml")/filmoteca/catalogo/pelicula
+where $p/actores/actor = "Carmen Blanco"
+return 
+<pelicula id="{$p/@id}">
+  {$p/titulo}
+  {$p/director}
+</pelicula>
+
+ #7 
+for $proy in doc("filmoteca.xml")/filmoteca/proyecciones/proyeccion
+where contains($proy/fecha, "2024")
+let $peli := doc("filmoteca.xml")/filmoteca/catalogo/pelicula[@id = $proy/peliculaID/@ref]
+order by $proy/fecha ascending, $proy/hora ascending
+return 
+<proyeccion id="{$proy/@id}">
+  {$peli/titulo}
+  {$proy/fecha}
+  {$proy/hora}
+  <sala>{data($proy/@sala)}</sala>
+</proyeccion>
+
+ #8 
+for $ent in doc("filmoteca.xml")/filmoteca/entradas/entrada
+let $proy := doc("filmoteca.xml")/filmoteca/proyecciones/proyeccion[@id = $ent/proyeccionID/@ref]
+let $peli := doc("filmoteca.xml")/filmoteca/catalogo/pelicula[@id = $proy/peliculaID/@ref]
+order by $ent/compraFecha
+return 
+<entrada id="{$ent/@id}">
+  <fechaCompra>{data($ent/compraFecha)}</fechaCompra>
+  <pelicula>{data($peli/titulo)}</pelicula>
+</entrada>
+
+ #9 
+for $proy in doc("filmoteca.xml")/filmoteca/proyecciones/proyeccion
+where contains($proy/fecha, "2024")
+let $vendidas := count(doc("filmoteca.xml")/filmoteca/entradas/entrada[proyeccionID/@ref = $proy/@id])
+return 
+<proyeccion id="{$proy/@id}">
+  <entradasVendidas>{$vendidas}</entradasVendidas>
+</proyeccion>
+
+ #10 
+for $proy in doc("filmoteca.xml")/filmoteca/proyecciones/proyeccion
+let $pid := $proy/peliculaID/@ref
+group by $pid
+let $media := avg($proy/precio)
+let $peli := doc("filmoteca.xml")/filmoteca/catalogo/pelicula[@id = $pid]
+return 
+<pelicula id="{$pid}">
+  {$peli/titulo}
+  <precioMedio>{$media}</precioMedio>
+</pelicula>

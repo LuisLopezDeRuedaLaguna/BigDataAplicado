@@ -1,0 +1,43 @@
+<!ELEMENT biblioteca (informacion, catalogo, socios, prestamos)>
+<!ATTLIST biblioteca 
+    codigo CDATA #REQUIRED>
+
+<!ELEMENT informacion (direccion, telefono)>
+<!ATTLIST informacion 
+    nombre CDATA #REQUIRED
+    tipo   CDATA #REQUIRED>
+
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT catalogo (libro+)>
+<!ELEMENT libro (titulo, autor, anno)>
+<!ATTLIST libro 
+    id     ID    #REQUIRED
+    genero CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT anno (#PCDATA)>
+
+<!ELEMENT socios (socio+)>
+<!ELEMENT socio (nombre, email?)> 
+<!ATTLIST socio 
+    id   ID    #REQUIRED
+    tipo CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT prestamos (prestamo*)>
+<!ELEMENT prestamo (libroID, fechaInicio, fechaFin?)> 
+<!ATTLIST prestamo 
+    id      ID    #REQUIRED
+    socioID IDREF #REQUIRED>
+
+<!ELEMENT libroID EMPTY>
+<!ATTLIST libroID 
+    ref IDREF #REQUIRED>
+
+<!ELEMENT fechaInicio (#PCDATA)>
+<!ELEMENT fechaFin (#PCDATA)>

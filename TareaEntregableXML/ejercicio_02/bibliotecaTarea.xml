@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+<biblioteca codigo="BIB2025">
+  
+  <informacion nombre="Biblioteca Central" tipo="publica">
+    <direccion>Avenida del Conocimiento 42</direccion>
+    <telefono>954112233</telefono>
+  </informacion>
+
+  <catalogo>
+    <libro id="L001" genero="novela">
+      <titulo>El viento en los sauces</titulo>
+      <autor>Kenneth Grahame</autor>
+      <anno>1908</anno>
+    </libro>
+
+    <libro id="L002" genero="fantasia">
+      <titulo>El hobbit</titulo>
+      <autor>J.R.R. Tolkien</autor>
+      <anno>1937</anno>
+    </libro>
+  </catalogo>
+
+  <socios>
+    <socio id="S01" tipo="adulto">
+      <nombre>Laura Martínez</nombre>
+      <email>laura@example.com</email>
+    </socio>
+
+    <socio id="S02" tipo="infantil">
+      <nombre>Daniel López</nombre>
+      <!-- email opcional -->
+    </socio>
+  </socios>
+
+  <prestamos>
+    <prestamo id="P10" socioID="S01">
+      <libroID ref="L002"/>
+      <fechaInicio>2025-01-10</fechaInicio>
+      <fechaFin>2025-01-25</fechaFin>
+    </prestamo>
+
+    <prestamo id="P11" socioID="S02">
+      <libroID ref="L001"/>
+      <fechaInicio>2025-01-12</fechaInicio>
+      <!-- fechaFin puede no aparecer si el libro no ha sido devuelto -->
+    </prestamo>
+  </prestamos>
+
+</biblioteca>
