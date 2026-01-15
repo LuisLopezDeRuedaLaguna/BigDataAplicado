@@ -1,6 +1,5 @@
 <!ELEMENT biblioteca (informacion, catalogo, socios, prestamos)>
-<!ATTLIST biblioteca 
-    codigo CDATA #REQUIRED>
+<!ATTLIST biblioteca codigo CDATA #REQUIRED>
 
 <!ELEMENT informacion (direccion, telefono)>
 <!ATTLIST informacion 
